@@ -7,7 +7,7 @@ export default function inverterTexto() {
         const textoEntrada = document.getElementById('input-text')
         const textoSaida = document.getElementById('output-text')
 
-        textoSaida.value = textoEntrada?.value.split('').reverse().join('');
+        textoSaida?.value = textoEntrada?.value.split('').reverse().join('');
     }
     
     return (
